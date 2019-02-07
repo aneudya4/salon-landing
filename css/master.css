@@ -1,0 +1,194 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  font-family: "Old Standard TT", serif;
+}
+
+body {
+  padding: 2em;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../images/model2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 97vh;
+  color: white;
+  position: relative;
+}
+nav {
+  font-size: 1.5em;
+  display: flex;
+  padding: 2em;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+nav ul li a:hover {
+  color: #e1bb87;
+}
+
+.moto {
+  width: 100%;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.moto h1 {
+  font-size: 7em;
+  color: #e1bb87;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.btn {
+  color: #e1bb87;
+  display: inline-block;
+  font-size: 1.8em;
+  border: 1px solid #e1bb87;
+  padding: 0.5em 2em;
+  cursor: pointer;
+}
+
+.our-history {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7em;
+}
+.our-history p {
+  text-align: center;
+  font-size: 2em;
+  width: 50%;
+}
+
+.our-history h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  opacity: 0.3;
+  color: #e1bb87;
+}
+.our-history span {
+  display: inline-block;
+  font-size: 1.4em;
+  border: 1px solid #e1bb87;
+  background: #e1bb87;
+  padding: 0.3em 1em;
+}
+
+.luxury-img {
+  height: 50vh;
+  background-image: url("../images/model-makeup2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: red;
+  text-align: center;
+}
+.luxury-img .info h2 {
+  font-size: 8em;
+  font-style: italic;
+  font-weight: 100;
+  color: #e1bb87;
+}
+
+.luxury-img .info span {
+  font-size: 1.5em;
+}
+
+.luxury-img .info {
+  transform: translate(-70%, 0%);
+}
+
+.service {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7em;
+}
+
+.service p {
+  text-align: center;
+  font-size: 2em;
+  width: 50%;
+}
+
+.service h2 {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7em;
+  opacity: 0.3;
+  color: #e1bb87;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  margin-right: 1em;
+  height: 200px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-1 {
+  background-image: url("../images/makeup.jpeg");
+}
+.box-2 {
+  background-image: url("../images/skin.jpg");
+}
+
+.box-3 {
+  background-image: url("../images/haircut.jpeg");
+}
+.text {
+  color: #e1bb87;
+  font-style: italic;
+  font-size: 2em;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  background: black;
+  height: 200px;
+  width: 250px;
+  opacity: 0.8;
+}
