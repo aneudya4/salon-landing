@@ -1,7 +1,10 @@
+* {
+  font-family: "Old Standard TT", serif;
+}
+
 html {
   font-size: 10px;
   box-sizing: border-box;
-  font-family: "Old Standard TT", serif;
 }
 
 body {
@@ -175,7 +178,7 @@ nav ul li a:hover {
 .box-3 {
   background-image: url("../images/haircut.jpeg");
 }
-.text {
+.text-service {
   color: #e1bb87;
   font-style: italic;
   font-size: 2em;
@@ -191,4 +194,44 @@ nav ul li a:hover {
   height: 200px;
   width: 250px;
   opacity: 0.8;
+}
+
+.grid {
+  display: flex;
+}
+
+.img-container {
+  width: 64%;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-service {
+  background: #f9f3e8;
+  text-align: justify;
+  padding: 5em 5em;
+  position: relative;
+  width: 50%;
+}
+.info-service span {
+  display: block;
+  font-size: 6em;
+  position: absolute;
+  color: #e1bb87;
+  opacity: 0.4;
+  word-spacing: 0.5em;
+  text-transform: uppercase;
+  top: 20%;
+}
+.info-service h2 {
+  font-style: italic;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+.offer .info-service {
+  background: white;
 }
