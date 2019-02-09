@@ -1,12 +1,12 @@
 # Luxury salon landing page
 
-Landing page for a beauty salong
+Landing page for a beauty salon
 
 <h2> Usage </h2>
-<p>this is purely educational, the services here cant be bought .</p>
+<p>this is just a demo , the services here cant be bought .</p>
 
 <h2> Technologies used  </h2>
-<p> Html css, css variables, css grid ,css flexbox</p>
+<p> Html css, css variables, css grid ,css flexbox </p>
 
 <h3> Demo </h3>
 <p> <a href='https://aneudya4.github.io/salon-landing//'>Live Demo Here</a></p>
