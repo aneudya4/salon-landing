@@ -157,7 +157,6 @@ nav ul li a:hover {
 
 .service h2 {
   text-align: var(--align);
-
   position: absolute;
   top: 17%;
   left: 50%;
@@ -214,7 +213,7 @@ nav ul li a:hover {
 }
 
 .img-container {
-  width: 64%;
+  width: 50%;
 }
 
 .img-container img {
