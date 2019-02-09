@@ -76,7 +76,7 @@ nav ul li a:hover {
 .our-history {
   position: relative;
   height: 50vh;
-  text-align: var(--aling);
+  text-align: var(--align);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -85,13 +85,13 @@ nav ul li a:hover {
   padding-bottom: 7em;
 }
 .our-history p {
-  text-align: var(--aling);
+  text-align: var(--align);
   font-size: 2em;
   width: 50%;
 }
 
 .our-history h2 {
-  text-align: var(--aling);
+  text-align: var(--align);
   position: absolute;
   top: 12%;
   left: 50%;
@@ -120,7 +120,7 @@ nav ul li a:hover {
   justify-content: space-around;
   align-items: flex-end;
   color: red;
-  text-align: var(--aling);
+  text-align: var(--align);
 }
 .luxury-img .info h2 {
   font-size: 8em;
@@ -140,7 +140,7 @@ nav ul li a:hover {
 .service {
   position: relative;
   height: 50vh;
-  text-align: var(--text-aling);
+  text-align: var(--text-align);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
