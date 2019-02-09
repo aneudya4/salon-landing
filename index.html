@@ -16,22 +16,20 @@
       <header>
         <nav>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Galery</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Galery</a></li>
+            <li><a href="#service">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="moto">
           <h1>Special Color for you</h1>
-          <span class="btn">Book an appoitment</span>
+          <a href="#contact"> <span class="btn">Book an appoitment</span> </a>
         </div>
       </header>
 
-      <section class="our-history">
+      <section id="about" class="our-history">
         <h2>ABOUT US</h2>
         <p>---Our History---</p>
         <p>
@@ -41,7 +39,7 @@
           tempora. Voluptatem aperiam possimus ducimus porro deleniti aliquam
           tempora in laudantium consequatur!
         </p>
-        <span>About us</span>
+        <span class="btn-background">About us</span>
       </section>
       <div class="luxury-img">
         <div class="info">
@@ -49,7 +47,7 @@
           <span class="btn"> View Gallery</span>
         </div>
       </div>
-      <div class="service">
+      <div class="service" id="service">
         <h2>Services</h2>
         <p>---Our Services---</p>
         <div class="boxes">
@@ -69,7 +67,7 @@
       </div>
 
       <section class="service-info">
-        <div class="beauty grid">
+        <div class="info-beauty grid">
           <div class="img-container">
             <img src="./images/mode-beauty.jpeg" alt="" />
           </div>
@@ -85,7 +83,7 @@
             </p>
           </div>
         </div>
-        <div class="offer grid">
+        <div class="info-offer grid">
           <div class="info-service">
             <span>Discount</span>
             <h2>Special offer</h2>
@@ -101,7 +99,7 @@
             <img src="./images/model-makeup.jpeg" alt="" />
           </div>
         </div>
-        <div class="gallery grid">
+        <div class="info-gallery grid">
           <div class="img-container">
             <img src="./images/model-gallery.jpeg" alt="" />
           </div>
@@ -118,6 +116,53 @@
           </div>
         </div>
       </section>
+
+      <section class="gallery" id="gallery">
+        <h2>Beauty</h2>
+        <span>gallery</span>
+
+        <div class="img-gallery">
+          <div class="img-grid img-one">
+            <img src="./images/model3.jpeg" alt="" />
+          </div>
+          <div class="img-grid img-two">
+            <img src="./images/newmodel.jpeg" alt="" />
+          </div>
+          <div class="img-grid img-three">
+            <img src="./images/model-gallery.jpeg" alt="" />
+          </div>
+          <div class="img-grid img-four">
+            <img src="./images/model-makeup.jpeg" alt="" />
+          </div>
+          <div class="img-grid img-five">
+            <img src="./images/makeup.jpeg" alt="" />
+          </div>
+        </div>
+
+        <a href="#contact">
+          <span class="btn-background"> make an appoitment</span>
+        </a>
+      </section>
+
+      <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <span>Get in touch</span>
+        <form action="">
+          <input type="text" name="" id="name" placeholder="Your Name" />
+          <input type="email" name="" id="name" placeholder="Your Email" />
+
+          <textarea
+            name="name"
+            rows="8"
+            cols="80"
+            placeholder="Your Message"
+          ></textarea>
+
+          <button type="submit" class="btn-background" id="submit">
+            Send Message
+          </button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
