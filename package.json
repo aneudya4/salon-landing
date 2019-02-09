@@ -1,0 +1,23 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneudya4/salon-landing.git"
+  },
+  "author": "Aneudy Adames",
+  "license": "ISC",
+  "homepage": "https://aneudya4.github.io/salon",
+  "bugs": {
+    "url": "https://github.com/aneudya4/salon-landing/issues"
+  },
+  "homepage": "https://github.com/aneudya4/salon-landing#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
