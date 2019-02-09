@@ -1,0 +1,378 @@
+* {
+  font-family: "Old Standard TT", serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-text-color: #e1bb87;
+  --main-translate: translate(-50%, -50%);
+  --align: center;
+}
+
+body {
+  padding: 2em;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../images/newmodel1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: var(--align);
+  height: 97vh;
+  color: white;
+  position: relative;
+}
+nav {
+  font-size: 1.5em;
+  display: flex;
+  padding: 2em;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+nav ul li a:hover {
+  color: var(--main-text-color);
+}
+
+.moto {
+  width: 100%;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: var(--main-translate);
+  text-align: var(--align);
+}
+
+.moto h1 {
+  font-size: 7em;
+  color: var(--main-text-color);
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.btn {
+  color: var(--main-text-color);
+  display: inline-block;
+  font-size: 1.8em;
+  border: 1px solid var(--main-text-color);
+  padding: 0.5em 2em;
+  cursor: pointer;
+}
+
+.our-history {
+  position: relative;
+  height: 50vh;
+  text-align: var(--aling);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: var(--align);
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.our-history p {
+  text-align: var(--aling);
+  font-size: 2em;
+  width: 50%;
+}
+
+.our-history h2 {
+  text-align: var(--aling);
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: var(--main-translate);
+  font-size: 5em;
+  opacity: 0.3;
+  color: var(--main-text-color);
+}
+
+.btn-background {
+  display: inline-block;
+  font-size: 1.4em;
+  border: 1px solid var(--main-text-color);
+  background: var(--main-text-color);
+  padding: 0.3em 1em;
+}
+
+.luxury-img {
+  height: 50vh;
+  background-image: url("../images/model-makeup2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: var(--align);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: red;
+  text-align: var(--aling);
+}
+.luxury-img .info h2 {
+  font-size: 8em;
+  font-style: italic;
+  font-weight: 100;
+  color: var(--main-text-color);
+}
+
+.luxury-img .info span {
+  font-size: 1.5em;
+}
+
+.luxury-img .info {
+  transform: translate(-70%, 0%);
+}
+
+.service {
+  position: relative;
+  height: 50vh;
+  text-align: var(--text-aling);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: var(--align);
+  padding-top: 7em;
+  text-align: var(--align);
+}
+
+.service p {
+  text-align: var(--text-align);
+  font-size: 2em;
+  width: 50%;
+}
+
+.service h2 {
+  text-align: var(--align);
+
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: var(--main-translate);
+  font-size: 7em;
+  opacity: 0.3;
+  color: var(--main-text-color);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  margin-right: 1em;
+  height: 200px;
+  position: relative;
+  background-position: var(--align);
+  background-size: cover;
+}
+
+.box-1 {
+  background-image: url("../images/makeup.jpeg");
+}
+.box-2 {
+  background-image: url("../images/skin.jpg");
+}
+
+.box-3 {
+  background-image: url("../images/haircut.jpeg");
+}
+.text-service {
+  color: #e1bb87;
+  font-style: italic;
+  font-size: 2em;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: var(--main-translate);
+}
+
+.overlay {
+  background: black;
+  height: 200px;
+  width: 250px;
+  opacity: 0.8;
+}
+
+.grid {
+  display: flex;
+}
+
+.img-container {
+  width: 64%;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-service {
+  background: #f9f3e8;
+  text-align: justify;
+  padding: 5em 5em;
+  position: relative;
+  width: 50%;
+}
+.info-service p {
+  font-size: 1.5em;
+}
+.info-service span {
+  display: block;
+  font-size: 4em;
+  position: absolute;
+  color: #e1bb87;
+  opacity: 0.4;
+  word-spacing: 0.5em;
+  text-transform: uppercase;
+  top: 20%;
+}
+.info-service h2 {
+  font-style: italic;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.info-offer .info-service {
+  background: white;
+}
+
+.gallery {
+  display: flex;
+  text-align: var(--align);
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5em;
+}
+.gallery h2 {
+  position: absolute;
+  font-size: 7em;
+  color: purple;
+  top: 0;
+  left: 50%;
+  transform: var(--main-translate);
+  opacity: 0.4;
+  color: #e1bb87;
+}
+
+.gallery span {
+  display: block;
+  margin-bottom: 3em;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.gallery .btn-background {
+  margin-top: 2em;
+  display: inline-block;
+  width: 30%;
+  align-self: var(--align);
+  cursor: pointer;
+}
+.img-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.img-grid {
+  height: auto;
+}
+.img-grid img {
+  width: 100%;
+  height: 100%;
+}
+.img-one {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.img-two {
+  grid-area: two;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.img-three {
+  grid-area: three;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.img-four {
+  grid-area: four;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.img-five {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: #f9f3e8;
+  margin: 0 auto;
+  text-align: var(--align);
+  padding: 2em;
+  position: relative;
+  justify-content: space-around;
+  font-style: italic;
+}
+.contact form {
+  margin: 0 auto;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: none;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 2em;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.contact h2 {
+  color: var(--main-text-color);
+  font-size: 5em;
+  text-align: var(--align);
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  transform: var(--main-translate);
+  opacity: 0.3;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
