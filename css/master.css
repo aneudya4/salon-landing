@@ -25,7 +25,7 @@ a:visited {
 }
 
 header {
-  background-image: url("../images/newmodel1.jpeg");
+  background-image: url("../images/model-heading.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -52,7 +52,7 @@ nav ul li a:hover {
 .moto {
   width: 100%;
   position: absolute;
-  top: 73%;
+  top: 70%;
   left: 50%;
   transform: var(--main-translate);
   text-align: var(--align);
