@@ -386,3 +386,62 @@ textarea {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 913px) {
+  .info-service span {
+    top: 17%;
+    font-size: 4.4em;
+  }
+
+  .info-service p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 809px) {
+  .luxury-img {
+    background-attachment: local;
+  }
+
+  .service {
+    margin-top: 13em;
+  }
+
+  .service h2 {
+    top: -30%;
+    z-index: 1;
+  }
+
+  .boxes {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3em;
+  }
+
+  .overlay {
+    width: 100%;
+  }
+
+  .box {
+    background-position: centerr;
+  }
+  .service-info {
+    margin-top: 25em;
+  }
+  .grid {
+    flex-direction: column;
+  }
+
+  .img-container,
+  .info-service {
+    width: 100%;
+    text-align: center;
+  }
+  .info-service span {
+    top: 35%;
+    left: 50%;
+    transform: var(--main-translate);
+  }
+}
+
+/* TODO: MOVE TEXT FROM SECND IMG */
